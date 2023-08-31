@@ -1,0 +1,53 @@
+{
+  "id": "osr-translation-mod",
+  "title": "osr-translation-mod",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "authors": [
+    {
+      "name": "RabidOwlbear",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "label": "OSRT Class Journals",
+      "name": "srd-class-journals",
+      "type": "JournalEntry",
+      "system": "ose",
+      "path": "packs/srd-class-journals",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "label": "OSRT Items",
+      "name": "srd-items",
+      "type": "Item",
+      "system": "ose",
+      "path": "packs/srd-items",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "label": "OSRT Spells",
+      "name": "srd-spells",
+      "type": "Item",
+      "system": "ose",
+      "path": "packs/srd-spells",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ]
+}
