@@ -1,5 +1,23 @@
-2023/08/30-14:38:30.449 5b84 Delete type=3 #1
-2023/08/30-15:05:33.742 19d0 Level-0 table #5: started
-2023/08/30-15:05:33.747 19d0 Level-0 table #5: 155589 bytes OK
-2023/08/30-15:05:33.749 19d0 Delete type=0 #3
-2023/08/30-15:05:33.749 19d0 Manual compaction at level-0 from '!folders!2iI6tN3tGZXwf6wB' @ 72057594037927935 : 1 .. '!items!zNLU2KChJo9bQKup' @ 0 : 0; will stop at (end)
+2023/09/04-14:48:38.940 4f38 Recovering log #7
+2023/09/04-14:48:38.941 4f38 Level-0 table #9: started
+2023/09/04-14:48:38.943 4f38 Level-0 table #9: 3392 bytes OK
+2023/09/04-14:48:38.947 4f38 Delete type=0 #7
+2023/09/04-14:48:38.947 4f38 Delete type=3 #6
+2023/09/04-19:51:25.173 4dc4 Level-0 table #12: started
+2023/09/04-19:51:25.173 4dc4 Level-0 table #12: 0 bytes OK
+2023/09/04-19:51:25.174 4dc4 Delete type=0 #10
+2023/09/04-19:51:25.175 4dc4 Manual compaction at level-0 from '!folders!2iI6tN3tGZXwf6wB' @ 72057594037927935 : 1 .. '!items!yulepD7it3eDZHT8' @ 0 : 0; will stop at '!items!zNLU2KChJo9bQKup' @ 424 : 0
+2023/09/04-19:51:25.175 4dc4 Compacting 1@0 + 0@1 files
+2023/09/04-19:51:25.177 4dc4 Generated table #13@0: 136 keys, 3392 bytes
+2023/09/04-19:51:25.177 4dc4 Compacted 1@0 + 0@1 files => 3392 bytes
+2023/09/04-19:51:25.178 4dc4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/09/04-19:51:25.178 4dc4 Delete type=2 #9
+2023/09/04-19:51:25.178 4dc4 Manual compaction at level-0 from '!items!zNLU2KChJo9bQKup' @ 424 : 0 .. '!items!yulepD7it3eDZHT8' @ 0 : 0; will stop at (end)
+2023/09/04-19:51:25.178 4dc4 Manual compaction at level-1 from '!folders!2iI6tN3tGZXwf6wB' @ 72057594037927935 : 1 .. '!items!yulepD7it3eDZHT8' @ 0 : 0; will stop at '!items!zNLU2KChJo9bQKup' @ 424 : 0
+2023/09/04-19:51:25.178 4dc4 Compacting 1@1 + 1@2 files
+2023/09/04-19:51:25.184 4dc4 Generated table #14@1: 132 keys, 53100 bytes
+2023/09/04-19:51:25.184 4dc4 Compacted 1@1 + 1@2 files => 53100 bytes
+2023/09/04-19:51:25.186 4dc4 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/09/04-19:51:25.186 4dc4 Delete type=2 #5
+2023/09/04-19:51:25.187 4dc4 Delete type=2 #13
+2023/09/04-19:51:25.189 4dc4 Manual compaction at level-1 from '!items!zNLU2KChJo9bQKup' @ 424 : 0 .. '!items!yulepD7it3eDZHT8' @ 0 : 0; will stop at (end)
